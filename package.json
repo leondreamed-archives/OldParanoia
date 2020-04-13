@@ -1,0 +1,19 @@
+{
+  "name": "paranoia",
+  "version": "1.0.0",
+  "main": "main.js",
+  "repository": "https://github.com/leonzalion/Paranoia",
+  "author": "Leon Si <leonzalion@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "jimp": "^0.10.1",
+    "screenshot-desktop": "^1.12.0",
+    "socket.io-client": "^2.3.0"
+  },
+  "devDependencies": {
+    "electron": "^8.2.1"
+  },
+  "scripts": {
+    "start": "electron ."
+  }
+}
