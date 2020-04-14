@@ -17,7 +17,7 @@ const Jimp = require('jimp');
   ipcMain.handle('screenshot', async function() {
     const imgBuffer = await screenshot();
     const img = await Jimp.read(imgBuffer);
-    img.resize(Jimp.AUTO, 50);
+    img.resize(Jimp.AUTO, 100);
     return img.getBase64Async(Jimp.MIME_JPEG);
   });
 }());
